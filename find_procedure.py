@@ -52,7 +52,7 @@ def search_in_file(files_sql):
             if search_str in file_inner:
                 result.append(file)
         print('\n'.join(result))
-        print('Всего: ', len(result))
+        print('Всего:', len(result))
         files_sql = result
 
 
